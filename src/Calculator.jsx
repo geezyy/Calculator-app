@@ -47,7 +47,9 @@ const App = () => {
         <button onClick={() => handleClick(".")}>.</button>
         <button onClick={() => handleClick("=")}>=</button>
         <button onClick={() => handleClick("+")}>+</button>
-        <button onClick={() => handleClick("C")}>C</button>
+      </div>
+      <div>
+        <button className="clr-btn" onClick={() => handleClick("C")}>C</button>
       </div>
     </div>
   );
